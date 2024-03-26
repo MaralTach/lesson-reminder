@@ -1,0 +1,20 @@
+.logo{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid red;
+    gap: 4rem;
+    align-items: center;
+    margin: auto;
+}
+.logo img{
+    border: 1px solid;
+    width: 25rem;
+    
+}
+.logo h2{
+    color: brown;
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+}
