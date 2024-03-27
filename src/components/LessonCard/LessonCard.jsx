@@ -39,7 +39,7 @@ const LessonCard = () => {
             {showImages ? (
                 <button  onClick={clearLessons}>Clear List</button>
             ) : (
-                <button  onClick={bringBackLessons}>Back List</button>
+                <button  onClick={bringBackLessons}>Back to List</button>
             )}
             </div>
           
