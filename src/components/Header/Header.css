@@ -1,18 +1,18 @@
 .logo{
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     gap: 4rem;
     align-items: center;
     margin: auto;
 }
 .logo img{
-    border: 1px solid;
+    /* border: 1px solid; */
     width: 25rem;
     
 }
-.logo h2{
+.logo h1{
     color: brown;
     font-size: 50px;
     text-align: center;

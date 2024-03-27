@@ -5,7 +5,7 @@ const Header = () => {
    
     <div className="logo">
       <img src="https://clarusway.com/wp-content/uploads/2022/12/clarusway-logo-black.png" alt="" width="200px" />
-      <h2>Lesson Reminder</h2>
+      <h1>Lesson Reminder</h1>
     </div>
    
      

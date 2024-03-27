@@ -19,22 +19,52 @@ body {
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
+  background: linear-gradient(to right, #e0eafc, #cfdef3);
 }
 .container{
   display: flex;
+  flex-direction: column;
   align-items: center;
   text-align: center;
   width: 420px;
   height: 300px;
   margin-top: 50px;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
 }
-.image-container{
- 
-  border: 1px solid red;
+h2{
+  font-size: 40px;
+  font-family: serif;
+  text-align: center;
 }
+
 .container img{
   width: 200px;
   
   object-fit: cover;
+}
+
+.backClear{
+  /* border: 1px solid red; */
+  padding: 15px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ border-radius: 10px;
+ background-color: #8EC5FC;
+ background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+}
+.backClear button{
+font-size: 20px;
+ border: none;
+ 
+ padding: 10px;
+ border-radius: 10px;
+ 
+}
+
+.title span{
+  color: orangered;
+  font-size: 25px;
 }
